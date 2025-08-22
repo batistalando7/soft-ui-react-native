@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "rn-soft-ui-kit-free",
-    "slug": "rn-soft-ui-kit-free",
+    "slug": "teste01",
     "description": "React Native - Soft UI Kit - Free",
     "primaryColor": "#CB0C9F",
     "version": "1.0.0",
@@ -19,16 +19,30 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.batistalando7.teste01",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#CB0C9F"
-      }
+      },
+      "package": "com.batistalando7.teste01"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "24361fef-7d72-4a16-91f7-bc98665b0b8f"
+      }
+    },
+    "owner": "batistalando7",
+    "plugins": [
+      "expo-localization"
+    ]
   }
 }
